@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Synthetic demand forecast and inventory dashboard demonstration">
+  <title>Demand Forecast Dashboard — Synthetic Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header><p class="eyebrow">SYNTHETIC DEMO</p><h1>Demand Forecast &amp; Inventory</h1><p class="muted">Location: <span id="location"></span> · Frozen model: Ridge (alpha=1.0)</p></header>
+    <section class="kpis" id="kpis"></section>
+    <section class="grid">
+      <article><div class="title"><h2>7-day forecast</h2><span>units</span></div><div class="bars" id="bars"></div></article>
+      <article><div class="title"><h2>Inventory projection</h2><span>closing units</span></div><svg id="line" viewBox="0 0 600 230" role="img" aria-label="Projected inventory line"></svg></article>
+    </section>
+    <section class="controls"><div><p class="eyebrow">ONE-REFILL SIMULATION</p><h2>Adjust inventory policy</h2></div><label>Initial inventory<input id="initial" type="number" min="0" value="5000"></label><label>Safety stock<input id="safety" type="number" min="0" value="1800"></label><label>Refill quantity<input id="refill" type="number" min="0" value="4500"></label></section>
+    <section><article><div class="title"><h2>Forecast and inventory detail</h2><span>synthetic values</span></div><div class="scroll"><table><thead><tr><th>Date</th><th>Forecast</th><th>Before refill</th><th>Refill</th><th>Closing</th></tr></thead><tbody id="rows"></tbody></table></div></article></section>
+    <footer>All values in this page are independently generated synthetic demonstration data.</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

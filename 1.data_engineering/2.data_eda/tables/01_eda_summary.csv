@@ -1,0 +1,12 @@
+metric,value
+start_date,2023-01-01
+end_date,2024-12-30
+number_of_days,730
+missing_dates,0
+count,730
+mean,516.62
+median,516.87
+std,53.27
+min,353.86
+max,653.53
+iqr_outlier_count,1

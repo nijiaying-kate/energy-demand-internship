@@ -1,0 +1,8 @@
+forecast_origin,target_date,horizon,location_id,storage_unit_id,model_name,actual_qty,predicted_qty
+2024-12-30,2024-12-31,1,location_demo,storage_unit_demo,Ridge Regression,,478.9428854739288
+2024-12-30,2025-01-01,2,location_demo,storage_unit_demo,Ridge Regression,,507.69194563745305
+2024-12-30,2025-01-02,3,location_demo,storage_unit_demo,Ridge Regression,,513.2762241435419
+2024-12-30,2025-01-03,4,location_demo,storage_unit_demo,Ridge Regression,,528.3903244371504
+2024-12-30,2025-01-04,5,location_demo,storage_unit_demo,Ridge Regression,,565.6621974305469
+2024-12-30,2025-01-05,6,location_demo,storage_unit_demo,Ridge Regression,,569.2649455299999
+2024-12-30,2025-01-06,7,location_demo,storage_unit_demo,Ridge Regression,,485.03908306074214

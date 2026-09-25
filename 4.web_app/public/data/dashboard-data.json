@@ -1,0 +1,41 @@
+{
+  "forecastOrigin": "2024-12-30",
+  "locationId": "location_demo",
+  "storageUnitId": "storage_unit_demo",
+  "modelName": "Ridge Regression",
+  "metrics": {
+    "validationWape": 6.209421758309743,
+    "testWape": 5.904348848063349,
+    "testMae": 30.368034241872486
+  },
+  "forecast": [
+    {
+      "targetDate": "2024-12-31",
+      "predictedQty": 478.9428854739288
+    },
+    {
+      "targetDate": "2025-01-01",
+      "predictedQty": 507.69194563745305
+    },
+    {
+      "targetDate": "2025-01-02",
+      "predictedQty": 513.2762241435419
+    },
+    {
+      "targetDate": "2025-01-03",
+      "predictedQty": 528.3903244371504
+    },
+    {
+      "targetDate": "2025-01-04",
+      "predictedQty": 565.6621974305469
+    },
+    {
+      "targetDate": "2025-01-05",
+      "predictedQty": 569.2649455299999
+    },
+    {
+      "targetDate": "2025-01-06",
+      "predictedQty": 485.03908306074214
+    }
+  ]
+}

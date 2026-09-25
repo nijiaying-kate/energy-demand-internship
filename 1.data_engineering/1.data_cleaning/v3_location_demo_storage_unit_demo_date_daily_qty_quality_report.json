@@ -1,0 +1,38 @@
+{
+  "source_file": "location_demo_transactions.csv",
+  "output_file": "v3_location_demo_storage_unit_demo_date_daily_qty_quality_report.json",
+  "raw_transaction_rows": 2190,
+  "filtered_transaction_rows": 2190,
+  "daily_record_rows": 730,
+  "filtered_out_rows": 0,
+  "filled_rows": 0,
+  "corrected_rows": 0,
+  "checks": {
+    "missing_date": 0,
+    "missing_qty": 0,
+    "duplicate_date": 0,
+    "negative_qty": 0,
+    "zero_qty": 0,
+    "invalid_qty": 0,
+    "missing_calendar_dates": 0,
+    "outlier_iqr": 1
+  },
+  "date_range": {
+    "start": "2023-01-01",
+    "end": "2024-12-30",
+    "days": 730
+  },
+  "summary": {
+    "quality_status": "pass",
+    "notes": [
+      "Target location_id and storage_unit_id were applied before daily aggregation.",
+      "t_qty and t_pure_qty were compared and confirmed consistent for the selected rows.",
+      "No missing values were found in date or daily_qty.",
+      "No duplicate dates were found.",
+      "No negative daily_qty values were present.",
+      "No invalid numeric quantities were detected.",
+      "No calendar-day gaps were detected in the observed date range.",
+      "IQR outliers were detected for monitoring only and were not removed or corrected."
+    ]
+  }
+}

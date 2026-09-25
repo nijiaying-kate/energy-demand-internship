@@ -1,0 +1,3 @@
+model,partition,train_seconds,inference_seconds
+Baseline,Validation,0.0,0.02113270800327882
+Baseline,Test,0.0,0.007777250022627413
